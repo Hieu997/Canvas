@@ -88,11 +88,11 @@ drawRect(xRect, yRect, wRect, hRect);
 
 //Hình chữ nhạt di chuyển (gán nút di chuyển)
 window.addEventListener("keyup", function (e) {
-  switch (e.keycode) {
-    case 150:
+  switch (e.keyCode) {
+    case 37:
       xRect -= 5;
       break;
-    case 150:
+    case 39:
       xRect += 5;
       break;
   }
